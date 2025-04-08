@@ -1,0 +1,52 @@
+        /* Define the spin animation for the spinner */
+        @keyframes spin {
+            0% { transform: translate(-50%, -50%) rotate(0deg); }
+            100% { transform: translate(-50%, -50%) rotate(360deg); }
+        }
+
+        /* Style the body */
+        body {
+            background-image: url('https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/windir-go-pazaryeri-mxp4pr/assets/976542zzlj07/background_desktop.png');
+            background-color: #efe6de;
+            margin: 0; /* Remove default margin */
+            height: 100vh; /* Ensure body takes full viewport height */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Mobile background */
+            @media (max-width: 768px) {
+            body {
+            background-image: url('https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/windir-go-pazaryeri-mxp4pr/assets/2lhkh727709c/background_mobile.png');
+            }
+        }
+
+        /* Style the container */
+        .container {
+            position: relative;
+            text-align: center;
+        }
+
+        /* Styling for the spinner */
+        .spinner {
+            border: 8px solid #f3f3f3; /* Increase border width */
+            border-top: 8px solid #ff4c00; /* Increase border width */
+            border-radius: 50%;
+            width: 150px; /* Increase spinner size */
+            height: 150px; /* Increase spinner size */
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            animation: spin 1s linear infinite;
+            transform-origin: center; /* Ensure spinner spins around its center */
+        }
+
+        /* Style the image */
+        .container img {
+            width: 100px; /* Adjust image size */
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
