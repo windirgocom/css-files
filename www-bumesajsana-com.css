@@ -30,8 +30,8 @@
 
         /* Styling for the spinner */
         .spinner {
-            border: 8px solid #ffffff; /* Increase border width */
-            border-top: 8px solid #ffffff; /* Increase border width */
+            border: 8px solid #bd651d; /* Increase border width */
+            border-top: 8px solid #bd651d; /* Increase border width */
             border-radius: 50%;
             width: 350px; /* Increase spinner size */
             height: 350px; /* Increase spinner size */
