@@ -33,8 +33,8 @@
             border: 8px solid #f3f3f3; /* Increase border width */
             border-top: 8px solid #ff4c00; /* Increase border width */
             border-radius: 50%;
-            width: 500px; /* Increase spinner size */
-            height: 500px; /* Increase spinner size */
+            width: 350px; /* Increase spinner size */
+            height: 350px; /* Increase spinner size */
             position: absolute;
             top: 50%;
             left: 50%;
@@ -44,7 +44,7 @@
 
         /* Style the image */
         .container img {
-            width: 500px !important; /* Adjust image size */
+            width: 350px !important; /* Adjust image size */
             position: absolute;
             top: 50%;
             left: 50%;
