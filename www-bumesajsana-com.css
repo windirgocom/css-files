@@ -44,7 +44,7 @@
 
         /* Style the image */
         .container img {
-            width: 100px; /* Adjust image size */
+            width: 500px; /* Adjust image size */
             position: absolute;
             top: 50%;
             left: 50%;
